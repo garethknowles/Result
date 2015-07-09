@@ -15,6 +15,4 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/garethknowles/Result.git", :branch => "master" }
   s.requires_arc = true
   s.source_files  = "Result/**/*.{d,h,m,swift}"
-  s.header_dir = "Result"
-  s.framework  = "Foundation"
 end
